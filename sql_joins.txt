@@ -1,0 +1,52 @@
+INNER JOIN
+
+SELECT * FROM TableA
+INNER JOIN TableB
+ON TableA.name = TableB.name
+
+
+
+
+
+
+FULL OUTER JOIN
+
+SELECT * FROM TableA
+FULL OUTER JOIN TableB
+ON TableA.name = TableB.name
+
+
+
+
+
+
+LEFT OUTER JOIN
+
+SELECT * FROM TableA
+LEFT OUTER JOIN TableB
+ON TableA.name = TableB.name
+
+
+
+
+
+
+FULL OUTER JOIN
+SELECT * FROM TableA
+FULL OUTER JOIN TableB
+ON TableA.name = TableB.name
+WHERE TableA.id IS null
+OR TableB.id IS null
+
+
+
+
+
+
+
+
+
+CROSS JOIN
+
+SELECT * FROM TableA
+CROSS JOIN TableB
